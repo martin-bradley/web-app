@@ -13,6 +13,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
   }
   
   /* Hero section styling */
@@ -21,6 +22,7 @@ body {
     height: 100vh;
     background: url('/img/hero-image.png') no-repeat center center/cover;
     position: relative;
+    z-index: 1;
   }
   
   /* Adjust height for smaller devices */
@@ -33,4 +35,5 @@ body {
       font-size: 1.5em;
     }
   }
+  
   
