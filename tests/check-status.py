@@ -1,6 +1,7 @@
 import requests
 
 def ping_url(url):
+
     try:
         response = requests.get(url)
         # Check if the response status code is 200 (OK)
@@ -12,4 +13,5 @@ def ping_url(url):
         print(f'Error: {e}')
 
 # Example usage
+
 ping_url('https://www.martinbradley.net')
