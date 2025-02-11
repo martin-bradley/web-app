@@ -33,6 +33,17 @@ body {
 	line-height: 1;
 }
 
+.custom-icons li {
+    display: flex;
+    align-items: center;
+}
+
+.custom-icons i {
+    width: 24px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+
 ol, ul {
 	list-style: none;
 }
